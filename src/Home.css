@@ -1,0 +1,213 @@
+
+
+/* Style the announcement section */
+.announcement-section {
+    background-color: #dbdbd4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    position: relative;
+}
+
+/* Style the announcement text */
+.announcement-text {
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 21px;
+    color: black;
+}
+
+/* Style the text boxes section */
+
+.text-boxes {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the text boxes section */
+.text-boxes-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align text boxes */
+}
+
+.text-box-out {
+    flex: 1 0 15%; /* Adjust the width as needed */
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 280px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+/* Style the map view */
+.map-view {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-view iframe {
+    max-width: 100%;
+    border: none;
+}
+
+.footer {
+    background-color: #dbdbd4;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: large;
+}
+
+
+
+  /* Your existing CSS code */
+
+
+/* Style the image section */
+.image-section {
+    background-image: url('./dmcebldg.jpeg');  
+    height: 500px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+/* Style the text on the image */
+
+.image-text {
+    color: black;
+    margin-left: 25px;
+    margin-top: -175px;
+}
+
+.image-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.image-text p {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: poppins;
+}
+
+/* Style the sign-up button */
+.signup-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #dbdbd4;
+}
+
+.heading {
+    text-align: left;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.heading-notice {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.notice-content {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;   
+}
+
+a {
+    color: black; /* Set link color to black */
+    text-decoration: none; /* Remove underline */
+}
+
+p{  
+    margin-left: 15px;
+    padding: 5px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+/* will be used later  */
+
+  /* TEXT BOX */
+  .text-box-verification {
+    top: 120px;   position: fixed;
+    left: 255px;
+    width: 1155px;
+    height: 550px;
+    max-width: calc(100% - 200px); 
+    max-height: calc(100% - 130px);     
+    background-color: #fff; /* White background color, adjust as needed */
+    border-radius: 10px; /* Rounded corners, adjust as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow, adjust as needed */
+    padding: 20px; /* Add padding inside the text box */
+    overflow: auto; /* Add scroll if needed */
+    color: black;
+    background-image: url('Rejected.jpg'); /* Replace 'your-image-url.jpg' with your image URL */
+    background-size: auto; /* Adjust as needed, 'cover' or 'contain' */
+    background-position: center center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+  }
+
+
+  /* Media queries for responsiveness */
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .image-text {
+        margin-left: 10px;
+        margin-top: -100px;
+        text-align: center;
+    }
+    .image-text h1 {
+        font-size: 24px;
+    }
+    .image-text p {
+        font-size: 14px;
+    }
+    .signup-button {
+        margin: 20px auto;
+    }
+    .announcement-section {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .text-box-out {
+        flex: 1  90%; /* Adjust width for smaller screens */
+        margin: 10px ; 
+    }
+    .footer {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,56 @@
+/* Your existing CSS code */
+
+/* Style the text boxes section */
+.text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the individual text boxes */
+.text-box {
+    flex: 0 1 calc(33.33% - 20px); /* Distribute evenly with spacing */
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-box p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    margin: 0;
+    font-size: xx-large;
+    color: black;
+}
+
+/* Style the image section */
+.image-section2 {
+    background-image: url('https://content3.jdmagicbox.com/comp/navi_mumbai/95/022p8900095/catalogue/datta-meghe-college-of-engineering-airoli-navi-mumbai-colleges-ko3xi730tr.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    .text-box {
+        flex: 0 1 calc(50% - 20px); /* Adjust to two columns on smaller screens */
+    }
+    
+    .image-section2 {
+        height: 300px; /* Adjust height for smaller screens */
+    }
+}

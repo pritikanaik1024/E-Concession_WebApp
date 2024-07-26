@@ -1,0 +1,89 @@
+.login-form {
+  width: 90%; /* Adjust width for smaller screens */
+  max-width: 400px; /* Set maximum width */
+  margin: 75px auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: #fff;
+}
+
+.login-form img {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.password-toggle {
+  cursor: pointer;
+  color: #0073e6;
+}
+
+.password-toggle.show {
+  color: #e60000;
+}
+
+.Login-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Login-button:hover,
+.Login-button:hover {
+  background-color: #3E8E41; 
+}
+
+.forgot-password-link {
+  text-align: right;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  .login-form {
+    margin-top: 50px; /* Adjust margin-top for smaller screens */
+    padding: 15px; /* Adjust padding */
+  }
+  
+  .login-form img {
+    max-width: 80px; /* Adjust image size */
+  }
+  
+  .form-group input {
+    padding: 8px; /* Adjust input padding */
+  }
+  
+  .Login-button {
+    padding: 8px 15px; /* Adjust button padding */
+  }
+}
